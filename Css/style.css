@@ -1,0 +1,25 @@
+.slider{
+    text-align: center;
+}
+button{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border: 5px solid #25d955;
+}
+#secondimage{
+    margin-left: 5px;
+    width: 700px;
+    height: 525px;
+}
+#thirdimage{
+    margin-left: 5px;
+    width: 700px;
+    height: 525px;
+}
+#secondimage,#thirdimage{
+    display: none;
+    border:5px solid #a834eb;
+    transition: 0.5s all ease;
+}
